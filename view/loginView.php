@@ -41,9 +41,7 @@
 
 <?php
 
-if(isset($n)){
-    echo $n;
-}
+
 
 ?>
 
