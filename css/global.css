@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+body{ 
+    background-color: #EFEFEF;
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    overflow-x: hidden;
+   
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+select{
+    margin-left: -5px;
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+    font-family: 'Comfortaa', cursive;
+}
+.input[type="file"]{
+    display:none;
+}
+
+.btn-submit{
+    height: 35px;
+    width: 150px;
+    border-radius: 15px;
+    border:1px solid #0B5774;
+    background-color: #0B5774;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+
+.btn-submit:hover{
+   background-color: #6CBCDB;
+   color: black;
+}
+.error{
+    color:red ;
+    font-size:10px;
+    position: relative;
+    
+    
+    
+}
+.error-border{
+   border: 2px solid #E84354;
+}

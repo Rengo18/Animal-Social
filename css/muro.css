@@ -1,0 +1,649 @@
+select{
+    width: 55px;
+    position: relative;
+    left: 20px;;
+}
+a:hover{
+    text-decoration: none;
+}
+[type="search"]{
+    outline-offset: 0;
+    -webkit-appearance:initial ;
+}
+.nav-container{
+    display: grid;
+    width: 100vw;
+    height: 50px;
+    grid-template-columns: 100px 700px 200px 100px 100px  1fr ;
+    background-color: #BAD9F1;
+    position: fixed;
+    z-index: 5;
+    
+}
+.colum-barra{
+    border-left: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colum{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-buscar{
+   
+  background-image: url("../img/lupaConhuella.svg");
+  width: 40px;
+  height:30px;;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position-x: 5px;
+  background-color: #82F377;
+  border:1px solid #82F377;
+  border-radius: 5px;
+  cursor: pointer;
+    
+}
+.btn-buscar:hover{
+    background-color: #3DF12C;
+    border:1px solid #3DF12C;
+}
+.input-search{
+    font-family: 'Comfortaa', cursive;
+    width: 400px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+.avatar-pequeño{
+
+     border: 1px solid  black;
+     border-radius: 50%;
+     position: relative;
+     right:30px ;
+     box-sizing: border-box;
+     object-fit: cover;
+}
+.text-nav{
+ color: #135A98;
+ 
+}
+.btn-cerrar{
+    border: none;
+    color: #135A98;
+    background-color: #BAD9F1;
+    font-family: 'Comfortaa', cursive;
+    cursor:pointer;
+}
+.text-nav:hover{
+    background-color: #78B0E1;
+    
+}
+.img-hover:hover{
+    background-color: #78B0E1;
+    
+}
+.btn-cerrar:hover{
+    background-color: #78B0E1;
+}
+
+/* buscador */
+.Buscardor-container{
+    display: grid;
+    width: 300px;
+    height: 100vh;
+    grid-template-rows: 150px 200px 1fr; 
+    background-color: #181565;
+   position: fixed;
+   z-index: 4;
+    
+   
+}
+
+.input-buscarpost{
+    height: 30px;
+    position: relative;
+    left:15px;
+    font-family: 'Comfortaa', cursive;
+    top: 90px;
+}
+.text-buscadorpost{
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 20px;   
+    margin-bottom: 25px;
+}
+.btn-buscarpost{
+      
+  background-image: url("../img/lupaConhuella.svg");
+  width: 40px;
+  height:30px;;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position-x: 5px;
+  background-color: #82F377;
+  border:1px solid #82F377;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  top: 90px;
+  left:15px;
+}
+.btn-buscarpost:hover{
+    background-color: #3DF12C;
+    border:1px solid #3DF12C;
+}
+.radio-post{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    margin-bottom: 25px;
+}
+.text-fecha{
+    color: white;
+    position: relative;
+   left: 20px;
+}
+
+
+/* publicacion */
+.publicacion-container{
+    display: grid;
+    height: 750px;
+    width:600px;
+    grid-template-rows: 35px repeat(6,1fr) 50px;
+    position: relative;
+    left: 300px;
+    top: 70px;
+    background-color: #BAD9F1;
+    border: 1px solid #BAD9F1;
+    border-radius: 10px;
+    order:0;
+    margin-left: 200px;
+}
+
+#preview-archivo .archivo{
+    font-size:10px;
+    
+  }
+  #preview-images .thumbnail {
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      vertical-align: middle;
+      border: solid 2px #CCC;
+      background-size: cover;
+      position: relative;
+      bottom: 30px;
+      margin-left: 5px;
+  }
+   #preview-images .thumbnail:not(:last-child) {
+      margin-right: 5px;
+  }
+
+
+
+.btn-submit-publicacion {
+    position: relative;
+     bottom:20px;
+}
+
+.palabrasClaves{
+    position: relative;
+    bottom:20px;
+}
+
+.palabrasClaves-not{
+  display: none;
+}
+.add{
+    position: relative;
+    left: 280px;
+    
+}
+.add-lg{
+    position: relative;
+    left: 280px;
+    
+}
+
+.text-publicacion{
+    color: black;
+    font-size: 15px;
+    position: relative;
+    bottom: 5px;
+    left: 15px;
+
+}
+.cb-visibilidad{
+    width: 100px;
+    position: relative;
+    left:330px ;
+    
+}
+ .input-text{
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 250px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding-left: 10px;
+    position: relative;
+    left: 15px;
+}
+.descripcion-publicacion{
+    border: 1px solid grey;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    position: relative;
+    left: 15px;
+    padding: 10px;
+}
+.text-paalabraclave{
+    position: relative;
+    bottom: 5px;
+    left:10px ;
+}
+.input-textpalabra{
+    font-family: 'Comfortaa', cursive;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: white;
+    width: 110px;
+    margin-right: 10px;
+    margin-top: 5px;
+    left: 10px;
+    position: relative;
+    font-size: 15px;
+}
+.input-file{
+    display: none;
+}
+.imgan-publicacion{ 
+      position: relative;
+    left: 210px;
+    cursor: pointer;
+    top: 8px;
+    margin-right: 10px;
+    object-fit: cover;
+  
+}
+
+.btn-submit{
+    position: relative;
+    left: 200px;
+    top: 10px;
+   
+}
+/* publicado */
+
+.publicado-container{
+    margin-top: 350px;
+    height: 600px;
+    width:600px;
+    position: relative;
+    left: 300px;
+    top: 150px;
+    border: 1px solid #88F37E;
+    background-color: #88F37E;
+    border-radius: 30px;
+    margin-bottom: 10px; 
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+
+.avatar-publicacion{
+    border: 1px solid gray;
+    border-radius:50px;
+    margin: 5px;
+    object-fit: cover;
+
+}
+.nombre-publicacion{
+    margin-left: 5px;
+    position: relative;
+   
+    font-size: 20px;
+}
+.fecha-publicado{
+    position: relative;
+    left: 80px;
+    bottom: 25px;
+    
+}
+.titulo-publicado{
+    position: relative;
+    bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    background-color: #78B0E1;
+    width: 450px;
+    border: 1px solid #78B0E1;
+    border-radius: 10px;
+}
+.descripcion-publicado{
+    position: relative;
+    margin-left: 20px;
+    font-size:15px;
+    background-color: white;
+    height: 150px;
+    width:550px;
+    border-radius: 10px;
+    border: 1px solid white;
+    word-wrap: break-word;
+    overflow: scroll;
+    
+}
+.imagen-publicacion{
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    position: relative;
+    left: 90px;
+    top: 10px;
+    
+}
+.imagen-publicacion3{
+    width: 400px;
+    height: 120px;
+    object-fit: cover;
+    position: relative;
+    left: 90px;
+    top:10px;
+}
+.palabraclave-text{
+    margin-right: 20px;
+    position: relative;
+    left: 80px;
+    font-size: 20px ;
+    top: 10px;
+   
+}
+
+.adjunto-text{
+    margin-left: 10px;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    left: 20px;
+    
+  
+}
+.denuncia-imagen{
+
+width: 30px;
+height: 30px;
+
+
+
+}
+.imagen-adjunto{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 60px;
+}
+.btn-view-modal{
+    text-decoration: none;
+   
+}
+.color-modal-content{
+    background-color: #6CBCDB;
+  
+  }
+  .btn-denuncia{
+      border-radius: 15px;
+      border:1px solid #0B5774;
+      background-color: #0B5774;
+      font-family: 'Comfortaa', cursive;
+      color: white;
+      text-align: center;
+      cursor: pointer;
+      margin-top: 60px;
+     
+  }
+  .modal{
+      font-family: 'Comfortaa', cursive;
+  }
+  
+  .letra-x{
+      position: relative;
+      
+      
+  }
+  .form-denuncia{
+      height: 250px;
+  }
+
+  .descripcion-publicacion{
+      border: 1px solid grey;
+      border-radius: 15px;
+      text-decoration: none;
+      font-family: 'Comfortaa', cursive;
+      font-size: 15px;
+      
+  }
+  .btn{
+    height: 50px;
+    width: 60px;
+    position: relative;
+    left: 350px;
+    bottom: 50px;
+    background-color:#88F37E;
+    border: 1px solid #88F37E;
+  }
+  .btn-comentario{
+     position: relative;
+     bottom: 70px;
+     left: 500px;
+     background-color:white;
+     border: 1px solid white;
+  }
+
+/* comentario */
+.comentario-container{
+    margin-top: 600px;
+    position: absolute;
+    background-color: #6662BE;
+    height: 300px;
+    width: 600px;
+    border: 1px solid #6662BE;
+    border-radius: 30px;
+    overflow:auto;
+    
+}
+.tb-comentar{
+    border: 1px solid grey;
+    border-radius: 30px;
+    font-family: 'Comfortaa', cursive;
+    height: 30px;
+    width: 400px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    padding-left: 10px;
+}
+.btn-comentar{
+    height: 35px;
+    width: 150px;
+    border-radius: 15px;
+    border:1px solid #0B5774;
+    background-color: #0B5774;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    top: 30px;
+  
+
+}
+.btn-comentar:hover{
+    background-color: #6CBCDB;
+    color: black;
+ }
+ .comentarios-container{
+     
+     background-color: white;
+     border: 1px solid black;
+     border-radius: 30px;
+     margin-top: 50px;
+     height: 100px;
+    
+     
+ }
+ .logo-comentario{
+     border-radius: 50px;
+     border: 1px solid black;
+     width: 50px;
+     height:50px;
+     margin-left: 10px;
+     object-fit: cover;
+     
+ }
+ .nombre-comentador{
+     font-size: 15px;
+     position: relative;
+     bottom: 10px
+     
+     
+ }
+ .fecha-comentador{
+     margin-left:70px;
+     position: relative;
+     bottom: 30px;
+     
+ }
+ .texto-comentador{
+     margin-left: 50px;
+     position: relative;
+     bottom: 20px;
+
+ }
+ .denuncia-imagen-comentario{
+    margin-left: 540px;
+    width: 30px;
+    height: 30px;
+    color: #135A98;
+    position: relative;
+    cursor: pointer; 
+    bottom: 60px;
+ }
+ .not-fechas{
+     display: none;
+ }
+
+ /* BUSQUEDA USUARIO */
+ .btn-perfil{
+    height: 35px;
+    width: 150px;
+    border-radius: 15px;
+    border:1px solid #0B5774;
+    background-color: #0B5774;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    left: 250px;
+   
+    
+ }
+ 
+ .btn-perfil:hover{
+    background-color: #6CBCDB;
+    color: black;
+ }
+
+ .text-not-user{
+     color:#0B5774;
+     font-size: 50px;
+     position: relative;
+     top: 300px;
+     left: 300px;
+
+ }
+ .text-user{
+    color:#0B5774;
+    font-size: 30px;
+
+ }
+ .conteiner-perfilUsuario{
+     padding: 50px;
+     margin: 0 auto;
+     position: relative;
+     left: 500px;
+     top: 150px;
+ }
+ .logo-user-busqueda{
+    border-radius: 50px;
+    border: 1px solid black;
+    width: 100px;
+    height:100px;
+    margin-left: 10px;
+    object-fit: cover;
+    
+}
+
+/* RELACIONES */
+
+.conteiner-solicitud{
+    padding: 50px;
+     margin: 0 auto;
+     position: relative;
+     left: 350px;
+     top: 150px;
+}
+
+.btn-Cancelar{
+    height: 35px;
+    width: 150px;
+    border-radius: 15px;
+    border:1px solid #FF4E44;
+    background-color: #FF4E44;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    left: 230px;
+
+}
+.btn-Cancelar:hover{
+    background-color: #FF2417;
+    color: black;
+ }
+
+.btn-Aceptar{
+    height: 35px;
+    width: 150px;
+    border-radius: 15px;
+    border:1px solid #70FF63;
+    background-color: #70FF63;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    left: 250px;
+}
+.btn-Aceptar:hover{
+    background-color: #26FF1D;
+    color: black;
+ }
+ .separacion{
+width: 800px;
+color: black;
+position: relative;
+top: 150px; 
+
+ }

@@ -1,0 +1,49 @@
+hr{
+    background-color: black;
+    color: black;
+    position: relative;
+    left: 20px;
+}
+
+.container{
+display:grid;
+height: 100vh;
+grid-template-columns:repeat(2,1fr);
+
+}
+.colum{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-text{
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 300px;
+    margin-left: 40px;
+}
+.btn-position{
+    position: relative;
+    top:100px;
+    right: 130px;
+}
+.error-login{
+    color:red;
+    font-size:12px;
+    position: relative;
+     margin-bottom: 5px;
+   
+}
+.error-message{
+    color:red;
+    font-size:12px;
+    position: relative;
+    bottom: 10px;
+   
+}
+.btn-position-iniciar{
+    position:relative;
+    top: 10px;
+}

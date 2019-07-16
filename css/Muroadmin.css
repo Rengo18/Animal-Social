@@ -1,0 +1,191 @@
+hr{
+    width: 400px;
+    position: relative;
+    right: 30px;
+    bottom: 30px;
+}
+.nav-container{
+    display: grid;
+    width: 100vw;
+    height: 50px;
+    grid-template-columns: 100px 700px 200px 1fr ;
+    background-color: #BAD9F1;
+    position: fixed;
+    z-index: 5;
+    
+}
+.colum-barra{
+    border-left: 1px solid black;
+     position: relative;
+     left: 120px;
+}
+.colum{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-buscar{
+   
+  background-image: url("../imagenes/lupa\ Con\ huella.svg");
+  width: 40px;
+  height:30px;;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position-x: 5px;
+  background-color: #82F377;
+  border:1px solid #82F377;
+  border-radius: 5px;
+  cursor: pointer;
+    
+}
+.btn-buscar:hover{
+    background-color: #3DF12C;
+    border:1px solid #3DF12C;
+}
+.input-search{
+    font-family: 'Comfortaa', cursive;
+    width: 400px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+
+.text-nav{
+ color: #135A98;
+ position: relative;
+ left: 80px;
+ 
+}
+.btn-cerrar{
+    border: none;
+    color: #135A98;
+    background-color: #BAD9F1;
+    font-family: 'Comfortaa', cursive;
+    cursor:pointer;
+    position: relative;
+    top: 15px;
+    left: 35px;
+    font-size: 15px;
+
+}
+.text-nav:hover{
+    background-color: #78B0E1;
+    
+}
+
+.btn-cerrar:hover{
+    background-color: #78B0E1;
+}
+/* perfil */
+.perfil-container{
+    display: grid;
+    height: 100vh;
+    width: 600px;
+    grid-template-rows: 200px 50px repeat(8,40px) 50px;
+    position: fixed;
+    top: 50px;
+    background-color: #BAD9F1;
+    border: 1px solid gray;
+    position: fixed;
+    z-index: 4;
+   
+
+}
+.foto-perfil{
+    border: 1px solid black;
+    border-radius: 65px;
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+    position: relative;
+    left: 190px;
+    top: 10px;
+    
+
+}
+
+.editar-imagen:hover{
+  background-color: #9ECBEE;
+}
+.nombre-perfil
+{
+    position: relative;
+    left: 150px;
+    bottom: 50px;
+}
+.text-perfil{
+   position: relative;
+   left: 80px;
+   bottom: 30px;
+}
+.btn-eliminar{
+    height: 35px;
+    width: 160px;
+    border-radius: 15px;
+    border:1px solid #0B5774;
+    background-color: #0B5774;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.btn-eliminar:hover{
+    background-color: #6CBCDB;
+   color: black;
+}
+
+/* lista administradores */
+.listaamigos-container{
+    display: grid;
+    border: 1px solid #707070;
+    height: 500px;
+    position: relative;
+    left: 850px;
+    width: 600px;
+    grid-template-rows: 50px repeat(4,1fr); 
+    top: 50px;
+    flex-wrap: wrap;
+    background-color: white;
+    
+}
+.sublist-container{
+ display: grid;
+ height: 110px;
+ width: 500px;
+ grid-template-columns: repeat(4,1fr);
+
+
+}
+
+.text-lista{
+ font-size: 15px;
+ color: black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ top: 9px;
+ margin-left: 10px;
+ 
+ 
+}
+.titulo-lista{
+ margin-left: 130px;
+ position: relative;
+ top: 15px;
+ font-size: 20px
+}
+.listaModeradores-container{
+    display: grid;
+    border: 1px solid #707070;
+    height: 500px;
+    position: relative;
+    left: 850px;
+    width: 600px;
+    grid-template-rows: 50px repeat(4,1fr); 
+    top: 50px;
+    flex-wrap: wrap;
+    background-color: white;
+    
+}

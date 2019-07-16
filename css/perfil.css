@@ -1,0 +1,517 @@
+select{
+    width: 55px;
+    position: relative;
+    left: 20px;;
+}
+hr{
+    width: 300px;
+    position: relative;
+    right: 30px;
+}
+a:hover{
+    text-decoration: none;
+}
+[type="search"]{
+    outline-offset: 0;
+    -webkit-appearance:initial ;
+}
+
+.nav-container{
+    display: grid;
+    width: 100vw;
+    height: 50px;
+    grid-template-columns: 100px 700px 200px 100px 100px 1fr ;
+    background-color: #BAD9F1;
+    position: fixed;
+    z-index: 5;
+    border: 1px solid gray;
+    
+}
+.colum-barra{
+    border-left: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colum{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-buscar{
+   
+  background-image: url("../img/lupaConhuella.svg");
+  width: 40px;
+  height:30px;;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position-x: 5px;
+  background-color: #82F377;
+  border:1px solid #82F377;
+  border-radius: 5px;
+  cursor: pointer;
+  
+    
+}
+.btn-buscar:hover{
+    background-color: #3DF12C;
+    border:1px solid #3DF12C;
+}
+.input-search{
+    font-family: 'Comfortaa', cursive;
+    width: 400px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+.avatar-pequeño{
+
+     border: 1px solid  black;
+     border-radius: 50%;
+     position: relative;
+     right:30px ;
+     box-sizing: border-box;
+     object-fit: cover;
+}
+.text-nav{
+ color: #135A98;
+ 
+}
+.btn-cerrar{
+    border: none;
+    color: #135A98;
+    background-color: #BAD9F1;
+    font-family: 'Comfortaa', cursive;
+    cursor:pointer;
+}
+.text-nav:hover{
+    background-color: #78B0E1;
+    
+}
+.img-hover:hover{
+    background-color: #78B0E1;
+    
+}
+.btn-cerrar:hover{
+    background-color: #78B0E1;
+}
+
+
+
+/* publicado */
+.publicado-container{
+    margin-top: 350px;
+    height: 600px;
+    width:600px;
+    position: relative;
+    left: 300px;
+    bottom:250px;
+    border: 1px solid #88F37E;
+    background-color: #88F37E;
+    border-radius: 30px;
+    margin-bottom: 10px; 
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 350px;
+    
+}
+
+
+.avatar-publicacion{
+    border: 1px solid gray;
+    border-radius:50px;
+    margin: 5px;
+    object-fit: cover;
+
+}
+.nombre-publicacion{
+    margin-left: 5px;
+    position: relative;
+   
+    font-size: 20px;
+}
+.fecha-publicado{
+    position: relative;
+    left: 80px;
+    bottom: 25px;
+    
+}
+.titulo-publicado{
+    position: relative;
+    bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    background-color: #78B0E1;
+    width: 450px;
+    border: 1px solid #78B0E1;
+    border-radius: 10px;
+}
+.descripcion-publicado{
+    position: relative;
+    margin-left: 20px;
+    font-size:15px;
+    background-color: white;
+    height: 150px;
+    width:550px;
+    border-radius: 10px;
+    border: 1px solid white;
+    word-wrap: break-word;
+    overflow: scroll;
+    
+}
+.imagen-publicacion{
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    position: relative;
+    left: 90px;
+    top: 10px;
+    
+}
+.imagen-publicacion3{
+    width: 400px;
+    height: 120px;
+    object-fit: cover;
+    position: relative;
+    left: 90px;
+    top:10px;
+}
+.palabraclave-text{
+    margin-right: 20px;
+    position: relative;
+    left: 80px;
+    font-size: 20px ;
+    top: 10px;
+   
+}
+
+.adjunto-text{
+    margin-left: 10px;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    left: 20px;
+    
+  
+}
+.denuncia-imagen{
+
+width: 30px;
+height: 30px;
+
+
+
+}
+.imagen-adjunto{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 60px;
+}
+.btn-view-modal{
+    text-decoration: none;
+   
+}
+.color-modal-content{
+    background-color: #6CBCDB;
+  
+  }
+  .btn-denuncia{
+      border-radius: 15px;
+      border:1px solid #0B5774;
+      background-color: #0B5774;
+      font-family: 'Comfortaa', cursive;
+      color: white;
+      text-align: center;
+      cursor: pointer;
+      margin-top: 60px;
+     
+  }
+  .modal{
+      font-family: 'Comfortaa', cursive;
+  }
+  
+  .letra-x{
+      position: relative;
+      
+      
+  }
+  .form-denuncia{
+      height: 250px;
+  }
+  .descripcion-publicacion{
+      border: 1px solid grey;
+      border-radius: 15px;
+      text-decoration: none;
+      font-family: 'Comfortaa', cursive;
+      font-size: 15px;
+      
+  }
+  .btn{
+    height: 50px;
+    width: 60px;
+    position: relative;
+    left: 350px;
+    bottom: 50px;
+    background-color:#88F37E;
+    border: 1px solid #88F37E;
+  }
+  .btn-comentario{
+     position: relative;
+     bottom: 70px;
+     left: 500px;
+     background-color:white;
+     border: 1px solid white;
+  }
+
+/* comentario */
+.comentario-container{
+    margin-top: 600px;
+    position: absolute;
+    background-color: #6662BE;
+    height: 300px;
+    width: 600px;
+    border: 1px solid #6662BE;
+    border-radius: 30px;
+    overflow:auto;
+    
+}
+.tb-comentar{
+    border: 1px solid grey;
+    border-radius: 30px;
+    font-family: 'Comfortaa', cursive;
+    height: 30px;
+    width: 400px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    padding-left: 10px;
+}
+.btn-comentar{
+    height: 35px;
+    width: 150px;
+    border-radius: 15px;
+    border:1px solid #0B5774;
+    background-color: #0B5774;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    top: 30px;
+  
+
+}
+.btn-comentar:hover{
+    background-color: #6CBCDB;
+    color: black;
+ }
+ .comentarios-container{
+     
+     background-color: white;
+     border: 1px solid black;
+     border-radius: 30px;
+     margin-top: 50px;
+     height: 100px;
+    
+     
+ }
+ .logo-comentario{
+     border-radius: 50px;
+     border: 1px solid black;
+     width: 50px;
+     height:50px;
+     margin-left: 10px;
+     object-fit: cover;
+     
+ }
+ .nombre-comentador{
+     font-size: 15px;
+     position: relative;
+     bottom: 10px
+     
+     
+ }
+ .fecha-comentador{
+     margin-left:70px;
+     position: relative;
+     bottom: 30px;
+     
+ }
+ .texto-comentador{
+     margin-left: 50px;
+     position: relative;
+     bottom: 20px;
+
+ }
+ .denuncia-imagen-comentario{
+    margin-left: 540px;
+    width: 30px;
+    height: 30px;
+    color: #135A98;
+    position: relative;
+    cursor: pointer; 
+    bottom: 60px;
+ }
+ .not-fechas{
+     display: none;
+ }
+ .mensaje-pub{
+     position: relative;
+     left: 750px;
+     top:300px;
+     font-size: 30px;
+     color: #0B5774;
+     
+ }
+ /* perfil */
+ .perfil-container{
+     display: grid;
+     height: 100vh;
+     width: 500px;
+     grid-template-rows: 200px repeat(4,1fr);
+     position: fixed;
+     top: 50px;
+     background-color: #BAD9F1;
+     border: 1px solid gray;
+    
+
+ }
+ .foto-perfil{
+     border: 1px solid black;
+     border-radius: 65px;
+     height: 130px;
+     width: 130px;
+     object-fit: cover;
+     position: relative;
+     left: 190px;
+     top: 10px;
+     
+
+ }
+ .editar-imagen{
+     width: 40px;
+     height: 40px;
+     cursor: pointer;  
+    position: relative;
+    left: 420px;
+    bottom: 180px;
+    
+ }
+ .editar-imagen:hover{
+   background-color: #9ECBEE;
+ }
+ .nombre-perfil
+ {
+     position: relative;
+     left: 15px;
+     top: 90px;
+ }
+.text-perfil{
+    position: relative;
+    left: 40px;
+    
+}
+
+.text{
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+}
+.btn-Amistad{
+    height: 35px;
+    width: 150px;
+    border-radius: 15px;
+    border:1px solid #0B5774;
+    background-color: #0B5774;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    left: 140px;
+    bottom: 60px;
+  
+
+}
+.btn-Amistad:hover{
+    background-color: #6CBCDB;
+    color: black;
+ }
+
+ /* EDITAR PERFIL */
+
+
+ .form-editar{
+     height: 400px;
+     width: 400px;
+     position: relative;
+     left: 500px;
+     bottom: 100px;
+     background-color:#6CBCDB;
+     border: 1px solid black;
+     border-radius: 5px;
+    
+
+ }
+ .span-fecha{
+
+    margin-right: 40px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+ 
+}
+.label-text{
+    font-size: 20px;
+} 
+.btn-editar{
+    height: 35px;
+    width: 150px;
+    border-radius: 15px;
+    border:1px solid #0B5774;
+    background-color: #0B5774;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+}
+
+.btn-editar:hover{
+    background-color: #6CBCDB;
+    color: black;
+ }
+ .input-text-editar{
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 250px;
+ }
+ .titulo-editar{
+
+    font-size: 25px;
+    color: #0B5774;
+
+ }
+.elementosAEditar{
+
+background-color:#6CBCDB;
+position: relative;
+left:200px;
+height: 200px;
+width: 200px;
+border: 1px solid black;
+border-radius: 5px;
+top: 150px;
+}
+.avatar-perfil-editar{
+    border: 1px solid  black;
+    border-radius: 50%;
+    position: relative;
+    right:30px ;
+    box-sizing: border-box;
+    object-fit: cover;
+    left: 30px;
+}

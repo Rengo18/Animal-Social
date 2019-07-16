@@ -1,0 +1,56 @@
+hr{
+    background-color: black;
+    color: black;
+    position: relative;
+    
+}
+    
+    .radio-s{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .label-text{
+        font-size: 20px;
+    }        
+    .container{
+        display:grid;
+        height: 100vh;
+        grid-template-columns: repeat(2,1fr);
+    
+    }
+    .colum{
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input-text{
+        font-family: 'Comfortaa', cursive;
+        margin-bottom: 20px;
+        height: 30px;
+        width: 250px;
+       
+    }
+   
+    .btn-submit{
+        margin-top: 10px;
+        position: relative;
+        left: 150px;
+    }
+    .span-fecha{
+        margin-right: 60px;
+        position: relative;
+        top: 10px;
+    }
+    .error-right-md{
+        position: relative;
+        left: 70px;
+    }
+    .error-right-lg{
+        position: relative;
+        left: 120px;
+    }
+   
+   
+ 
